@@ -6,8 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Dz.JaCoCo" />
+        <module name="homeworkJaCoCo" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Dz.JaCoCo" target="11" />
+    </bytecodeTargetLevel>
   </component>
 </project>
